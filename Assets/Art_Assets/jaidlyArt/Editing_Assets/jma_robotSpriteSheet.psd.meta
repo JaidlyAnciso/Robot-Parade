@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: jma_robotSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 8
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354a1a819f3ba234eb5dd978998b008c
+      internalID: 768976177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jma_robotSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d5817bca5aba24897545c2171d59d9
+      internalID: 1934449007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jma_robotSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ecda65fe5c32b418fce47a5f4aa45a
+      internalID: 2062001848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jma_robotSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 3
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a1f26649d22c54799067f622623480
+      internalID: -832929427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jma_robotSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3
+        width: 8
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bffacff0affbfe43bd9ae1439236b3d
+      internalID: -1311375532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jma_robotSpriteSheet_0: 768976177
+      jma_robotSpriteSheet_1: 1934449007
+      jma_robotSpriteSheet_2: 2062001848
+      jma_robotSpriteSheet_3: -832929427
+      jma_robotSpriteSheet_4: -1311375532
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
