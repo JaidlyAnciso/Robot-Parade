@@ -137,8 +137,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 3d4d7baf920e75140b0733678e4952b3
       internalID: -683325354
+=======
+      spriteID: 11cee322066cff94d93bb9b82d996853
+      internalID: -1347115290
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -158,8 +163,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 4df0e952c06dfed4d99db44aa5256379
       internalID: 1391068395
+=======
+      spriteID: c19d07c224631574e8c327806f57e74e
+      internalID: 1580045838
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -179,8 +189,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 1a7bb3d4feea7cd4385887e1ee0cb163
       internalID: 630946155
+=======
+      spriteID: 95939ea04b6ebff4daddeb1d42df2b1e
+      internalID: 1362667956
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -200,8 +215,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 714d385abcb335e47bd2a019636f006f
       internalID: -44041763
+=======
+      spriteID: 0d2abdd5ccdb835479237b10ad58b396
+      internalID: 693188005
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -221,8 +241,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: ec973da15306f3e47b887fc01be47d4a
       internalID: 167591329
+=======
+      spriteID: 522550b2fdd6f354fb50dae94e81b82d
+      internalID: 238007073
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -238,11 +263,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< Updated upstream
       jma_clydeSpriteSheet_0: -683325354
       jma_clydeSpriteSheet_1: 1391068395
       jma_clydeSpriteSheet_2: 630946155
       jma_clydeSpriteSheet_3: -44041763
       jma_clydeSpriteSheet_4: 167591329
+=======
+      jma_clydeSpriteSheet_0: -1347115290
+      jma_clydeSpriteSheet_1: 1580045838
+      jma_clydeSpriteSheet_2: 1362667956
+      jma_clydeSpriteSheet_3: 693188005
+      jma_clydeSpriteSheet_4: 238007073
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
