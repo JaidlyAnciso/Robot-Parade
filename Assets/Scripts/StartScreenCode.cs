@@ -9,7 +9,7 @@ public class StartScreenCode : MonoBehaviour
     public void playGame()
     {
         //change to the game scene
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Game");
 
     }
       
