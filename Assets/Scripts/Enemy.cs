@@ -7,6 +7,17 @@ public class Enemy : MonoBehaviour
     public int LifeTotal = 3;
     public int EnemySpeed = 20;
     public Rigidbody2D rb;
+
+    private void OnTriggerEnter2D(Collider2D player)
+    {
+        
+        if (player.tag == "Player")
+
+        {
+           
+            Destroy(this.gameObject);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
