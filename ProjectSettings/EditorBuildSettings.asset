@@ -5,13 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartingScreen.unity
     guid: b649c03794bc5354785ae2fdf7c350af
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 32f119d1b8a297d49a0245a0d4373615
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TheEnd.unity
     guid: e458934475ab99b468bdecbe210f1c75
+  - enabled: 1
+    path: Assets/FruitGame/FGScenes/titleScene.unity
+    guid: 2e6eb165cdf006642b8341b954cf47ea
+  - enabled: 1
+    path: Assets/FruitGame/FGScenes/GameScene.unity
+    guid: 9b315f486ac793943aeca84fe64ba63b
+  - enabled: 1
+    path: Assets/FruitGame/FGScenes/EndScene.unity
+    guid: e1ee9c06f3250d944889f90f78864288
   m_configObjects: {}
