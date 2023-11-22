@@ -28,11 +28,11 @@ public class BillyMovement : MonoBehaviour
         
         if (movementVector.x < 0)
         {
-            this.gameObject.transform.localScale = new Vector3(-1f, 1f, 1f);
+            this.gameObject.transform.localScale = new Vector3(-.7f, .7f, .7f);
         }
         else
         {
-            this.gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
+            this.gameObject.transform.localScale = new Vector3(.7f, .7f, .7f);
         }
 
        
