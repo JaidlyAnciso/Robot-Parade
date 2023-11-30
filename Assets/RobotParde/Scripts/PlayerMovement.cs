@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         this.gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
     }
 
-    animator.SetFloat("speed", Mathf.Abs(rb.velocity.x));
+     animator.SetFloat("speed", Mathf.Abs(rb.velocity.x));
 
 
         rb.AddForce(movementVector);

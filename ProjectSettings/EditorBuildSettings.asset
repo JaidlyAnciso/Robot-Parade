@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/StartingScreen.unity
+    path: Assets/RobotParde/Scenes/StartingScreen.unity
     guid: b649c03794bc5354785ae2fdf7c350af
   - enabled: 0
-    path: Assets/Scenes/Game.unity
+    path: Assets/RobotParde/Scenes/Game.unity
     guid: 32f119d1b8a297d49a0245a0d4373615
   - enabled: 0
-    path: Assets/Scenes/TheEnd.unity
+    path: Assets/RobotParde/Scenes/TheEnd.unity
     guid: e458934475ab99b468bdecbe210f1c75
   - enabled: 1
     path: Assets/FruitGame/FGScenes/titleScene.unity
