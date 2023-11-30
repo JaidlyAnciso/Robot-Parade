@@ -14,8 +14,13 @@ public class Fruit : MonoBehaviour
     
     void Start() 
     {
-        StartCoroutine(FruitSpawn()); 
+        StartCoroutine(FruitSpawn());
+      
     }
+    
+
+    
+    
     IEnumerator FruitSpawn() 
 
     { 

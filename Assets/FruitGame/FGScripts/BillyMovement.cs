@@ -26,6 +26,11 @@ public class BillyMovement : MonoBehaviour
 
         movementVector.x = Input.GetAxis("Horizontal") * speed;
 
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            animator.SetTrigger("stomp");
+        }
         
         if (movementVector.x < 0)
         {
