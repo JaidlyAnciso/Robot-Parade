@@ -31,7 +31,7 @@ public class Fruit : MonoBehaviour
  
          yield return new WaitForSeconds(secondSpawn); 
  
-          Destroy(gameObject, 5f);
+         Destroy(gameObject, 5f);
      }
     }
 }
