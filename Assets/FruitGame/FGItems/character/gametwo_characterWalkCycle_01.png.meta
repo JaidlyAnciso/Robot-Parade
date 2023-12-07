@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8e2988e9eb15d274c9fea68d46ed177c
+guid: 3849fabce06845940aeffcfc0e269510
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,19 +107,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -136,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fruit_0
+      name: gametwo_characterWalkCycle_01_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 384
-        width: 110
-        height: 116
+        x: 11
+        y: 12
+        width: 60
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 125c4f2e2a6d5594cb5f04eba4c04ca4
-      internalID: -945196359
+      spriteID: a332bbceac8af6a4ab99f42f1088abcd
+      internalID: 31496955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_1
+      name: gametwo_characterWalkCycle_01_1
       rect:
         serializedVersion: 2
-        x: 157
-        y: 410
-        width: 119
-        height: 84
+        x: 82
+        y: 12
+        width: 60
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc2e9b814fc1f184f835e381fc000b6f
-      internalID: 1253795071
+      spriteID: f9eb46bdbae0feb4c81337794a42765c
+      internalID: 614472672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fruit_2
+      name: gametwo_characterWalkCycle_01_2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 384
-        width: 111
-        height: 116
+        x: 153
+        y: 12
+        width: 62
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,92 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94887c2408033384aa46b6aec02e6521
-      internalID: 2076802259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fruit_3
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 369
-        width: 127
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15d41acfaf01053489a40050639ae9bc
-      internalID: -1541437327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fruit_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 217
-        width: 119
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ddaf87628ed8c9488223b1834f086b8
-      internalID: 1204445946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fruit_5
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 202
-        width: 127
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37a956481fb7ff045809236d52f03ac0
-      internalID: 746524490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fruit_6
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 220
-        width: 111
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86ae327ca9c480e4e80c3957dd38eced
-      internalID: -1954505719
+      spriteID: 1aab57a9a1d38384698502e42ae05a17
+      internalID: -1421954149
       vertices: []
       indices: 
       edges: []
@@ -293,13 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fruit_0: -945196359
-      fruit_1: 1253795071
-      fruit_2: 2076802259
-      fruit_3: -1541437327
-      fruit_4: 1204445946
-      fruit_5: 746524490
-      fruit_6: -1954505719
+      gametwo_characterWalkCycle_01_0: 31496955
+      gametwo_characterWalkCycle_01_1: 614472672
+      gametwo_characterWalkCycle_01_2: -1421954149
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

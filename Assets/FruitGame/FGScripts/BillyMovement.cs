@@ -8,12 +8,13 @@ public class BillyMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     private Rigidbody2D rb;
+    private Animator animator;
     
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        
+        animator = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,19 +26,24 @@ public class BillyMovement : MonoBehaviour
 
         movementVector.x = Input.GetAxis("Horizontal") * speed;
 
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            animator.SetTrigger("stomp");
+        }
         
         if (movementVector.x < 0)
         {
-            this.gameObject.transform.localScale = new Vector3(-.7f, .7f, .7f);
+            this.gameObject.transform.localScale = new Vector3(-4f, 4f, 4f);
         }
         else
         {
-            this.gameObject.transform.localScale = new Vector3(.7f, .7f, .7f);
+            this.gameObject.transform.localScale = new Vector3(4f, 4f, 4f);
         }
 
        
 
-
+        animator.SetFloat("speed", Mathf.Abs(rb.velocity.x));
         rb.AddForce(movementVector);
     }
 }
