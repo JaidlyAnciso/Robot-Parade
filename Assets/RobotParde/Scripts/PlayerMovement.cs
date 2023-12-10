@@ -32,9 +32,9 @@ public class PlayerMovement : MonoBehaviour
         movementVector.y = jumpForce;
     }
     if(movementVector.x < 0) {
-        this.gameObject.transform.localScale = new Vector3(-1f, 1f, 1f);
+        this.gameObject.transform.localScale = new Vector3(-3f, 3f, 3f);
     } else{
-        this.gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
+        this.gameObject.transform.localScale = new Vector3(3f, 3f, 3f);
     }
 
      animator.SetFloat("speed", Mathf.Abs(rb.velocity.x));
