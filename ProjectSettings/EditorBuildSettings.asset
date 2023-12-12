@@ -5,22 +5,31 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/RobotParde/Scenes/StartingScreen.unity
     guid: b649c03794bc5354785ae2fdf7c350af
-  - enabled: 0
+  - enabled: 1
     path: Assets/RobotParde/Scenes/Game.unity
     guid: 32f119d1b8a297d49a0245a0d4373615
-  - enabled: 0
+  - enabled: 1
+    path: Assets/RobotParde/Scenes/Game2.unity
+    guid: 03034e3cd69a5844ebd3bcf944e9c039
+  - enabled: 1
+    path: Assets/RobotParde/Scenes/Game3.unity
+    guid: eaf856bea7a2f184ca456097bb2ec057
+  - enabled: 1
     path: Assets/RobotParde/Scenes/TheEnd.unity
     guid: e458934475ab99b468bdecbe210f1c75
   - enabled: 1
+    path: Assets/RobotParde/Scenes/Died.unity
+    guid: cbb2432e7b8f4774cbd004f096dd0247
+  - enabled: 0
     path: Assets/FruitGame/FGScenes/titleScene.unity
     guid: 2e6eb165cdf006642b8341b954cf47ea
-  - enabled: 1
+  - enabled: 0
     path: Assets/FruitGame/FGScenes/GameScene.unity
     guid: 9b315f486ac793943aeca84fe64ba63b
-  - enabled: 1
+  - enabled: 0
     path: Assets/FruitGame/FGScenes/EndScene.unity
     guid: e1ee9c06f3250d944889f90f78864288
   m_configObjects: {}
